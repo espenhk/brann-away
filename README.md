@@ -12,3 +12,6 @@ master password); nothing readable about a trip is ever committed.
 - `<slug>/index.html` — one encrypted page per match
 
 Don't edit these by hand; rerun the skill for the match instead.
+To refresh every page after a template change, ask the skill to re-render the
+Brann pages (no research runs). This is the only repo the skill writes to; see
+[ARCHITECTURE.md](https://github.com/espenhk/espenhk.github.io/blob/main/ARCHITECTURE.md).
